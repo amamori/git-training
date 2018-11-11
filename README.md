@@ -24,9 +24,22 @@
 
 - `git commit -a` : `「-a」`git管理ディレクトリ上で変更があったものをコミットする。
 
+## 「push」オプション
+
+- `git push <repository> <branch>`
+
+- 例：`git push origin master`
+
+    - origin: レポジトリの場所(URL)の別名
+        - `git remote -v`コマンドで確認できる
+    - master: ブランチの名前
+
+- `git push -f origin master` : コンフリクトしていて強制的にpushする
+
 ## Gitで使うときの標準エディタを変更する
 
 - `git config --global core.editor '○○'`
 
     - 〇〇のところは'vim'のような感じで指定する。
 
+## 
