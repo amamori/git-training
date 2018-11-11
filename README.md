@@ -16,11 +16,14 @@
 
 ## 「commit」オプション
 
-※ commitするときにaddしていないファイルはコミットされない。
+※ commitするときにaddしていないファイルはコミットされない。
 
 - `git commit -m` : `「-m」`コミットコメントを入力する。
 
-- `git commit .` : `「.」`currentディレクトリで変更があったものをコミットする。
+- `git commit .` : `「.」`currentディレクトリで変更があったものをコミットする。
 
 - `git commit -a` : `「-a」`git管理ディレクトリ上で変更があったものをコミットする。
 
+## Gitで使うときの標準エディタを変更する
+
+- `git config --global core.editor 'vim -c "set fenc=utf-8"'`
