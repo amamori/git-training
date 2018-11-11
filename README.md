@@ -26,4 +26,7 @@
 
 ## Gitで使うときの標準エディタを変更する
 
-- `git config --global core.editor 'vim -c "set fenc=utf-8"'`
+- `git config --global core.editor '○○'`
+
+    - 〇〇のところは'vim'のような感じで指定する。
+
