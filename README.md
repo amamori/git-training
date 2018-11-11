@@ -76,4 +76,4 @@ https://qiita.com/shuntaro_tamura/items/06281261d893acf049ed
 
 ## logの整理方法
 
-- `git rebase -i`
+- `get rebase -i HEAD~2`
