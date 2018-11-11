@@ -55,3 +55,7 @@
 
 - `git merge <branch>` : 
     - ※mergeする時はマージするbranchに移動しておくこと※
+
+## logの整理方法
+
+- `git rebase -i`
