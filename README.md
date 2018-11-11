@@ -49,4 +49,9 @@
 
 ## ブランチの変更方法
 
-- `git checkout <branch名>` : ブランチを切り替える
+- `git checkout <branch名>` : ブランチを切り替える
+
+## ブランチのマージ
+
+- `git merge <branch>` : 
+    - ※mergeする時はマージするbranchに移動しておくこと※
