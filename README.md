@@ -41,11 +41,12 @@
 - `git config --global core.editor '○○'`
 
     - 〇〇のところは'vim'のような感じで指定する。
+    - ※初期はemacsとかになっていると思います。(未確認・・・)
 
 ## ブランチの切り方
 
 - `git branch` : 現在のブランチを確認する
-- `git branch <新しいbranch名>` : 新しいローカルブランチを作成する
+- `git branch <新しいbranch名>` : 新しいローカルブランチを作成する
 
 ## ブランチの変更方法
 
@@ -54,7 +55,28 @@
 ## ブランチのマージ
 
 - `git merge <branch>` : 
-    - ※mergeする時はマージするbranchに移動しておくこと※
+    - ※mergeする時はマージするbranchに移動しておくこと※
+
+## ブランチの削除
+
+### ローカルブランチ
+
+- `git branch --delete <branch名>`
+
+### リモートブランチ
+
+- `git push --delete origin <branch名>`
+
+## commitのキャンセル
+
+- `git reset --hard HEAD^` : 1つ前のコミットをキャンセルし、ファイルも最新コミット時のファイルまで戻す
+- `git reset --soft HEAD^` : 1つ前のコミットをキャンセルし、ファイルの変更はそのまま。
+
+https://qiita.com/shuntaro_tamura/items/06281261d893acf049ed
+
+## コンフリクトの解消
+
+
 
 ## logの整理方法
 
