@@ -74,10 +74,6 @@
 
 https://qiita.com/shuntaro_tamura/items/06281261d893acf049ed
 
-## コンフリクトの解消
-
-
-
 ## logの整理方法
 
 - `git rebase -i`
