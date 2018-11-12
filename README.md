@@ -76,4 +76,9 @@ https://qiita.com/shuntaro_tamura/items/06281261d893acf049ed
 
 ## logの整理方法
 
-- `git rebase -i HEAD~2`
+- `git rebase -i HEAD~2` : HEADから1までのログを改変する。※この段階で指定したログの場所までHEADが戻る。
+- `git commit --amend` : 現在のHEADの箇所のコミットを行う
+- `git rebase --continue` : HEADの位置を次に進める
+
+
+
