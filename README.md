@@ -77,3 +77,14 @@ https://qiita.com/shuntaro_tamura/items/06281261d893acf049ed
 ## logの整理方法
 
 - `get rebase -i HEAD~2`
+
+## 「ff」・「no ff」について
+
+
+## コンフリクトの修正方法
+
+
+## リモートコミットを戻す
+
+
+## 過去に戻る
