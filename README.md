@@ -76,6 +76,7 @@ https://qiita.com/shuntaro_tamura/items/06281261d893acf049ed
 
 ## logの整理方法
 
+<<<<<<< HEAD
 - `get rebase -i HEAD~2`
 
 ## 「ff」・「no ff」について
@@ -88,3 +89,6 @@ https://qiita.com/shuntaro_tamura/items/06281261d893acf049ed
 
 
 ## 過去に戻る
+=======
+- `git rebase -i HEAD~2`
+>>>>>>> b9cb0a5... typo git
