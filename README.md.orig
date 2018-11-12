@@ -76,6 +76,8 @@ https://qiita.com/shuntaro_tamura/items/06281261d893acf049ed
 
 ## logの整理方法
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 - `get rebase -i HEAD~2`
 
 ## 「ff」・「no ff」について
@@ -88,7 +90,14 @@ https://qiita.com/shuntaro_tamura/items/06281261d893acf049ed
 
 
 ## 過去に戻る
+=======
+- `git rebase -i HEAD~2`
+>>>>>>> b9cb0a5... typo git
+=======
 - `git rebase -i HEAD~2` : HEADから1までのログを改変する。※この段階で指定したログの場所までHEADが戻る。
 - `git commit --amend` : 現在のHEADの箇所のコミットを行う
 - `git rebase --continue` : HEADの位置を次に進める
 
+
+
+>>>>>>> 4eecf0359f8162e688dd61ffc17b0e9390384361
